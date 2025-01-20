@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -11,6 +12,7 @@
     color: rgb(17, 17, 17);
     font-size: 2em;
     font-weight: 700;
+    text-transform: uppercase;
 }
 .nav-links a,li{
     list-style: none;
@@ -47,7 +49,7 @@
     color: rgb(255, 255, 255);
     font-size: 20px;
     font-weight: 600;
-    padding: .625rem 1.875rem;
+    padding: .625rem 3rem;
     border-radius: 12px;
     background: rgb(254, 163, 1);
     border: none;
@@ -94,7 +96,7 @@
     color: rgb(255, 255, 255);
     font-size: 1.25em;
     font-weight: 400;
-    padding: .625rem 1.875rem;
+    padding: .625rem 3rem;
     border: none;
     cursor: pointer;
     border-radius: 12px;
@@ -109,7 +111,6 @@
 }
 .standard-curriculum{
     background-image: url('assets/bg.png');
-    background-size: cover;
     background-repeat: no-repeat;
     padding-top: 3.75rem;
 }
@@ -196,7 +197,133 @@
     max-width: 8.125rem;
     margin: 5rem auto 3.75rem auto;
 }
-@media screen and (max-width:576px) {
+.stories{
+    background-image: url('assets/bg.png');
+    padding-top: 3.75rem;
+}
+.stories h4{
+    color: rgb(0, 0, 0);
+    font-size: 2.875em;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.story-box{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1.25rem;
+    max-width: 72.5rem;
+    margin: 0 auto 5.625rem auto;
+}
+.story-card1{
+    grid-row: span 2;
+    grid-column: span 2;
+}
+.story-card img{
+    width: 100%;
+}
+.story-card{
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.story-card img{
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+.story-card1 span{
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: .9rem 1.15rem;
+    border-radius: 47.93px;
+    background: rgb(60, 216, 232);
+    margin-left: -32.5rem;
+    font-family: Raleway;
+}
+.story-card2 span{
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: .563rem 1.15rem;
+    border-radius: 47.93px;
+    background: rgb(149, 178, 38);
+    margin-left: -16rem;
+    font-family: Raleway;
+}
+.story-card4 span{
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: .563rem 1.15rem;
+    border-radius: 47.93px;
+    background: rgb(149, 178, 38);
+    margin-left: -16rem;
+    font-family: Raleway;
+}
+.story-card5 span{
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: .563rem 1.15rem;
+    border-radius: 47.93px;
+    background: rgb(149, 178, 38);
+    margin-left: -16rem;
+    font-family: Raleway;
+}
+.story-card3 span{
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: .563rem 1.15rem;
+    border-radius: 47.93px;
+    background: rgb(93, 88, 240);
+    margin-left: -16rem;
+    font-family: Raleway;
+}
+.story-card2 h6, .story-card3 h6, .story-card4 h6, .story-card5 h6{
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 1em;
+    font-weight: 700;
+    margin: 2.695rem 3.414rem 2.097rem 2.369rem;
+}
+.story-card1 h6{
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-bottom: 3.236rem;
+    font-family: Quicksand;
+}
+.story-card1 p{
+    color: rgb(102, 102, 102);
+    font-size: 1em;
+    font-weight: 500;
+    font-family: Raleway;
+}
+.story1-text{
+    padding: 3.844rem 4.304rem 2.157rem 2.397rem;
+}
+.stories button{
+    color: rgb(255, 255, 255);
+    font-size: 1.25em;
+    font-weight: 700;
+    padding: .625rem 3.813rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 12px;
+    background: rgb(17, 17, 17);
+}
+.btn-box{
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width:576px){
     .nav-links{
         display: none;
     }
@@ -223,5 +350,15 @@
     }
     .arrow-box{
         display: none;
+    }
+    .story-box{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .story-card1{
+        display: none;
+    }
+    .story-card2 span,.story-card3 span, .story-card4 span, .story-card5 span{
+        font-size: .563em;
+        margin-left: -12rem;
     }
 }
