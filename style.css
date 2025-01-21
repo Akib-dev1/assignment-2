@@ -401,10 +401,14 @@ footer{
         text-align: center;
         flex-direction: column-reverse;
     }
-    header{
+    /* header{
         padding-left: 1rem;
         padding-right: 1rem;
-     }
+     } */
+    .hero{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
     .standard-curriculum{
         padding-left: 1rem;
         padding-right: 1rem;
@@ -443,5 +447,10 @@ footer{
     }
     .story-card2 h6, .story-card3 h6, .story-card4 h6, .story-card5 h6{
         margin: 1.625rem 2.038rem 1.25rem 1.438rem;
+    }
+    .navbar{
+        border-bottom: 1px solid orange;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 }
