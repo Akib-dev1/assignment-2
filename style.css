@@ -286,7 +286,7 @@
     margin-left: -16rem;
     font-family: Raleway;
 }
-.story-card2 h6, .story-card3 h6, .story-card4 h6, .story-card5 h6{
+c{
     color: rgb(0, 0, 0);
     font-family: Quicksand;
     font-size: 1em;
@@ -431,7 +431,7 @@ footer{
     }
     .story-card2 span,.story-card3 span, .story-card4 span, .story-card5 span{
         font-size: .563em;
-        margin-left: -12rem;
+        margin-left: -9.5rem;
     }
     .foot-box{
         flex-direction: column;
@@ -440,5 +440,8 @@ footer{
     }
     .box1 p{
         max-width: 100%;
+    }
+    .story-card2 h6, .story-card3 h6, .story-card4 h6, .story-card5 h6{
+        margin: 1.625rem 2.038rem 1.25rem 1.438rem;
     }
 }
