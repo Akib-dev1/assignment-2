@@ -63,6 +63,14 @@
     margin: 0 auto;
     padding: 1.25rem 0rem;
 }
+.slider{
+    background-color: #FEA301;
+    color: #FFFFFF;
+    font-family: Quicksand;
+    font-size: 1.25em;
+    font-weight: 400;
+    padding: .3rem;
+}
 .hero{
     display: flex;
     justify-content: space-between;
@@ -401,10 +409,10 @@ footer{
         text-align: center;
         flex-direction: column-reverse;
     }
-    /* header{
-        padding-left: 1rem;
-        padding-right: 1rem;
-     } */
+    .slider{
+        font-size: 1em;
+        padding: .3rem;
+    }
     .hero{
         padding-left: 1rem;
         padding-right: 1rem;
